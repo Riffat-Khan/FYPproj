@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;  
+    margin-top: 50px;
+    height: 500px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: #314154; 
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    color: white;
+}
+
+.left > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: white 2px solid;
+    border-radius: 50px;
+    color: #324255;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.left > p{
+    margin-top: 50px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #314154 2px solid;
+    padding: 0 100px;
+}
+
+.right > h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+input{
+    margin: 20px 0;
+    width: 300px;
+    height: 30px;
+    align-items: center;   
+}
+
+.right > button{
+    margin: 20px 0;
+    width: 305px;
+    height: 35px;
+    align-items: center;
+    background-color: #314154;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* .right-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 179px;
+}
+.right-style button{
+    border-radius: 50px;
+    width: 100px;
+    height: 35px
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input input{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+.text h2{
+    padding-left: 46px;
+}
+
+
+.other-resources{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.fb-google{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    column-gap: 10px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  .header {
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .right-layout {
+    background-color: #324255;
+    width: 40vw;
+    height: 99vh;
+    color: azure;
+  } */
+  
+
+/*
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column-reverse; 
+    }
+  
+    .header,
+    .right-layout {
+      width: 100%; 
+    }
+   .right-layout{
+    height: inherit;
+   }
+  
+  } */

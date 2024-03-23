@@ -1,0 +1,98 @@
+.overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+}
+
+.subHeader{
+    display: flex;
+    z-index: 2;
+    flex-direction: row;
+    align-items: center;
+    height: 108px;
+    position: fixed;
+    width: 100%;
+    gap: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.middleHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.iconStyle{
+    margin-bottom: -10px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color:#324255;
+    border-radius: 50%;
+    color: white;
+}
+
+.headerList{
+    display: flex;
+    align-items: center;
+}
+
+.navBar{
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.home{
+    margin-right: 50px;
+}
+.signBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #324255;
+    border: white 2px solid;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.copyRights{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    
+    
+}
+
+.list{
+    list-style: none;
+    margin-left: -30px;
+}
+
+
+.top-header h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.top-header span{
+    display: flex;
+    justify-content: center;
+}

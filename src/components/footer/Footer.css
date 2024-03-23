@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #324255;
+    margin-top: 100px;
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.icons{
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    color: #324255;
+}
+
+hr{
+    color: white;
+    width: 400px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+span{
+    margin: 0 10px ;
+}
